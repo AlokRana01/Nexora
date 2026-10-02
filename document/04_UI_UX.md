@@ -9,9 +9,19 @@
 
 ---
 
-## 1. Design Philosophy & Master Visual Layout
+## 1. Design Philosophy & Master Visual Layout: The Bento Grid Style ("Banto Style")
 
-Nexora marries the mathematical transparency of an elite Data Science workbench with the clarity, responsiveness, and aesthetic delight of modern SaaS interfaces.
+Nexora adopts the modern **Bento Grid (Banto Style)** design architecture—inspired by traditional Japanese bento boxes, featuring compartmentalized, modular cells that organize complex, multi-modal data intelligence into clean, scannable, and interactive visual containers.
+
+### Core Pillars of the Bento Grid ("Banto Style") System:
+1. **Compartmentalized Modularity:** Each analytic dimension (Metrics, Natural Language Inquiry, Recent Files, Multi-Agent Activity, Statistical Insights, Trend Charts, Data Quality, and Quick Actions) lives in its own dedicated, self-contained Bento card.
+2. **Harmonious Asymmetry:** The dashboard avoids monotonous equal grids by utilizing deliberate proportional spans:
+   * **Row 1:** 4 equal metric pill containers (`grid-cols-4`).
+   * **Row 2:** Wide 2-span Hero Query box (`col-span-2`) paired with a compact 1-span Recent Datasets card (`col-span-1`).
+   * **Row 3:** Balanced 3-column cockpit (`grid-cols-3`): Live Agent Timeline, Featured Insight + Chart, and Data Quality Donut + Quick Action grid.
+3. **Soft Elevation & Tactile Radii:** Generous border radii (`rounded-2xl` / 16px), 1px subtle slate borders (`border-slate-200/80`), soft ambient shadows, and micro-hover lifts (`hover:-translate-y-0.5 transition-transform`).
+4. **Information Density with Cognitive Calm:** Packs extensive investigative telemetry without clutter or visual fatigue.
+
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────┐

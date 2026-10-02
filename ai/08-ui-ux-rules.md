@@ -21,19 +21,26 @@ Identify:
 
 ---
 
-## 2. Preserve Design Language
+## 2. Preserve Design Language: The Bento Grid Style ("Banto Style")
 
-Do not introduce unrelated visual styles.
+Nexora's official UI/UX design architecture is the **Bento Grid (Banto Style)**.
+
+All new screens, dashboards, and analytical workspaces must follow the Bento style principles:
+- **Modular Bento Cells:** Every distinct widget or capability lives in a self-contained card container.
+- **Asymmetric Proportions:** Mix 4-column metric counters, 2/3 wide hero blocks, and balanced 3-column cockpits rather than generic uniform tables.
+- **Visual Harmony:** Rounded corners (`rounded-2xl` / 16px), subtle 1px border dividers (`border-slate-200/80`), soft pastel icon backgrounds, and gentle drop shadows.
+- **Deep Navy Sidebar with Light/Clean Canvas:** High-contrast left navigation rail paired with a scannable, uncluttered workspace canvas.
 
 Follow the existing:
 
-- Typography
-- Spacing
-- Radius
-- Shadows
-- Components
-- Color system
-- Interaction patterns
+- Typography (Inter for copy, tabular numbers for statistics, JetBrains Mono for code/schemas)
+- Spacing (16px / 24px grid gaps)
+- Radius (`rounded-2xl` for Bento cards, `rounded-lg` for buttons/inputs, `rounded-full` for status pills)
+- Shadows (Soft subtle elevation `shadow-sm`)
+- Components (shadcn/ui primitives)
+- Color system (Royal Blue CTA, Emerald Success, Purple AI Sparkle, Amber Alerts)
+- Interaction patterns (Live agent execution timelines, interactive hover cards)
+
 
 ---
 
