@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / ambient files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Environments & virtualenvs
+.env
+.env.local
+.venv/
+env/
+venv/
+ENV/
+
+# Node & dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+out/
+
+# IDE & system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Database & local data
+*.sqlite3
+*.db
+storage/
+dataset_storage/
